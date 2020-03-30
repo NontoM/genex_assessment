@@ -1,0 +1,231 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #efefef !important;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.navbar{
+    width:100%;
+    background-color:#C10A27;
+    border-bottom:1px solid #C0C1C0;
+    z-index: 5000;
+    display: block; 
+    height: 114px;  
+}
+.navbar-brand{
+    background-color: #efefef !important; 
+    width:170px;
+    height: 114px; 
+    position: relative;
+}
+img{
+    margin-right: 50px !important;
+}
+.page-header{
+    width:100%;
+    background-color:#C10A27;
+    border-bottom:1px solid #C0C1C0;
+    z-index: 5000;
+    display: block;
+}
+.container{
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-top: 50px !important; 
+    margin-bottom: 50px !important;  
+}
+.survey-body1{
+    padding-top: 20px !important;
+}
+h4{
+    color:#C10A27;
+    position: relative; 
+    font-size:18px !important;   
+    line-height: 20px;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400 !important;
+    margin-top:50px !important;
+    margin-bottom:30px !important;
+    margin-left: 5px !important;
+}
+.test{
+    font-weight: bold;
+    margin-top: 22px;
+}
+.span1{
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:10px; 
+    padding-left: 4px;
+}
+.form-check{
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    color: rgb(110, 108, 108);
+    font-weight: bold;
+}
+p{
+    position: relative;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin-left: 4px !important;
+}
+.span2{
+
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    float:right;
+}  
+#q1_submit{
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background-color: #337ab7;
+    border:1px solid #337ab7;
+    border-radius: 4px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+    height:35px;
+    
+}
+button{
+    color: #fff;
+    background-color: #2a6da8;
+    border:1px solid #337ab7;
+    border-radius: 4px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;  
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px; 
+    height:35px;
+}
+button:hover{
+    background-color: #436988 !important;
+    border: 0.5px solid rgb(153, 146, 146);
+    color: white; 
+}
+#q2_submit{
+    color: #fff;
+    background-color: #2a6da8;
+    border:1px solid #337ab7;
+    border-radius: 4px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px; 
+    height:35px;
+}
+.span3{
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin-left: 250px !important;
+    }  
+#q3_submit{
+    color: #fff;
+    background-color: #337ab7;
+    border:1px solid #337ab7;
+    border-radius: 4px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px; 
+    height:35px;
+}
+#q4_submit{
+    color: #fff;
+    background-color: #337ab7;
+    border:1px solid #337ab7;
+    border-radius: 4px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px; 
+    height:35px;
+}
+#q5_submit{
+    color: #fff;
+    background-color: #337ab7;
+    border:1px solid #337ab7;
+    border-radius: 4px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px; 
+    height:35px;
+}
+#q6_submit{
+    color: #fff;
+    background-color: #337ab7;
+    border:1px solid #337ab7;
+    border-radius: 4px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px; 
+    height:35px;
+}
+#q7_submit{
+    color: #fff;
+    background-color: #337ab7;
+    border:1px solid #337ab7;
+    border-radius: 4px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px; 
+    height:35px;
+}
+#q7_submit:hover{
+    background-color: #436988 !important;
+    border: 0.5px solid rgb(153, 146, 146);
+    color: white;   
+}
+
+.form-check-label{
+    font-weight: bold;
+    font-size:16px;
+    color: rgb(110, 108, 108); 
+    margin-left: 4px !important;
+}
+.footer{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    background-color: #515353;
+    padding-top: 18px;
+    position: fixed;
+    top: calc(100% - 50px);
+    border-top: 1px solid #C0C1C0;
+    z-index: 5000;
+    
+}
+.radio{
+    margin-left: 4px;
+}
+.progress{
+    float: left;
+    margin: 0 auto;
+    width: 30%;
+    color:white !important;
+}
+.progress-bar{
+    width: 30%;
+    color:white !important;   
+}
+#main_p{
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-align: center !important;  
+}

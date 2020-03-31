@@ -24,14 +24,7 @@
 </div>
 <!--container Ends-->
 <!--footer-->
-<footer class="footer">
-<div class="q-counter pgBar">
-			<div class="progress-item n-answered">85%</div>
-			<div class="progress-item progress">
-				<div class="progress-bar" role="progressbar" aria-valuenow="85.71428571428571" aria-valuemin="0" aria-valuemax="100" style="width: 85.7143%;"></div>
-			</div>
-		</div>
-</footer>
+<footer class="footer"></footer>
 <!--footer Ends-->
     
 </body>

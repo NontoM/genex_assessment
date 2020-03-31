@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Genex Survey</title>
     </head>
 <body>
 <!--header-->
@@ -21,13 +21,13 @@
 <!--header Ends-->
 <!--container-->
 <form action="" name="form1" method="post">
-<div class="container">
-<div class="survey-body1">
+<div class="container"><br>
+<div id="survey-body1">
 <div class="form-group">
 <h4 id="question1">1. Testing Demographic Question</h4>
 <label for="test" class="test">Test</label>
 <textarea class="form-control" rows="2" id="q1"></textarea>
-<button type="button" class="btn btn-primary btn-sm" name="q1-submit" id="q1_next">Next &raquo;</button>
+<a href="#survey-body2"><button type="button" class="btn btn-primary btn-sm" name="q1-submit" id="q1_next">Next &raquo;</button></a>
 <br><br><br>
 <hr>
 <br><br>
@@ -36,7 +36,7 @@
 </div>
 
 <div class="container">
-<div class="survey-body2"><br>
+<div id="survey-body2"><br>
 <h4 id="question2">2. How would you rate the load speed on the Genex Insights platform?</h4>
 <div class="form-check">
   <label class="form-check-label">
@@ -94,9 +94,8 @@
   </label>
 </div>
 <p class="p1">Extremely Slowly <span class="span2"> Extremely Quickly</span></p>
-<button type="button" class="btn btn-primary btn-sm" name="q2_submit" id="q2_next">Next &raquo;</button>
-<button type="button" class="btn btn-success btn-sm" name="q2-back" id="q2_back">&laquo; Back</button>
-<br>
+<a href="#survey-body3"><button type="button" class="btn btn-primary btn-sm" name="q2_submit" id="q2_next">Next &raquo;</button></a>
+<a href="#survey-body1"><button type="button" class="btn btn-success btn-sm" name="q2-back" id="q2_back">&laquo; Back</button></a><br>
 <br><br><br>
 <hr>
 <br><br>
@@ -104,7 +103,7 @@
 </div>
 
 <div class="container">
-<div class="survey-body3"><br>
+<div id="survey-body3"><br>
 <h4 id="question3">3. Did the charts load in the dashboard?</h4>
 <div class="form-check">
   <label class="form-check-label">
@@ -116,8 +115,8 @@
     <input type="radio" class="form-check-input" name="optradio">No
   </label>
 </div>
-<button type="submit" name="q3_submit" class="btn btn-primary btn-sm" id="q3_next">Next &raquo;</button>
-<button type="button" class="btn btn-success btn-sm" name="q3-back" id="q3_back">&laquo; Back</button><br>
+<a href="#survey-body4"><button type="button" name="q3_submit" class="btn btn-primary btn-sm" id="q3_next">Next &raquo;</button></a>
+<a href="#survey-body2"><button type="button" class="btn btn-success btn-sm" name="q3-back" id="q3_back">&laquo; Back</button><br></a>
 <br><br><br>
 <hr>
 <br><br>
@@ -125,12 +124,12 @@
 </div>
 
 <div class="container">
-<div class="survey-body4"><br>
+<div id="survey-body4"><br>
 <div class="form-group">
 <h4 id="question4">4. Please tell us more</h4>
 <textarea class="form-control" rows="2" id="q4"></textarea>
-<button type="submit" class="btn btn-primary btn-sm"  name="q4_next" id="q4_next">Next &raquo;</button>
-<button type="button" class="btn btn-success btn-sm" name="q4-back" id="q4_back">&laquo; Back</button>
+<a href="#survey-body5"><button type="button" class="btn btn-primary btn-sm"  name="q4_next" id="q4_next">Next &raquo;</button></a>
+<a href="#survey-body3"><button type="button" class="btn btn-success btn-sm" name="q4-back" id="q4_back">&laquo; Back</button></a>
 <br><br><br>
 <hr>
 <br><br>
@@ -139,7 +138,7 @@
 </div>
 
 <div class="container">
-<div class="survey-body5"><br>
+<div id="survey-body5"><br>
 <h4 id="question5">5. How would you rate the load speed for Analytic charts?</h4>
 <div class="form-check-inline">
   <label class="form-check-label">
@@ -197,8 +196,8 @@
   </label>
 </div>
 <p>Extremely Slowly  <span class="span3">Extremely Quickly</span></p>
-<button type="submit" name="q5_submit" class="btn btn-primary btn-sm" id="q5_next">Next &raquo;</button>
-<button type="button" class="btn btn-success btn-sm" name="q5-back" id="q5_back">&laquo; Back</button>
+<a href="#survey-body6"><button type="button" name="q5_submit" class="btn btn-primary btn-sm" id="q5_next">Next &raquo;</button></a>
+<a href="#survey-body4"><button type="button" class="btn btn-success btn-sm" name="q5-back" id="q5_back">&laquo; Back</button></a>
 <br><br><br>
 <hr>
 <br><br>
@@ -206,7 +205,7 @@
 </div>
 
 <div class="container">
-<div class="survey-body6"><br>
+<div id="survey-body6"><br>
 <h4 id="question6">6. Do you want to generate a Resolve Alert?</h4>
 <div class="form-check-inline">
   <label class="form-check-label">
@@ -218,8 +217,8 @@
     <input type="radio" class="form-check-input" name="optradio">No
   </label>
 </div>
-<a href=""><button type="submit" name="q6_submit" class="btn btn-primary btn-sm" id="q6_next">Next &raquo;</button></a>
-<button type="button" class="btn btn-success btn-sm" name="q6-back" id="q6_back">&laquo; Back</button>
+<a href="#survey-body7"><button type="button" name="q6_submit" class="btn btn-primary btn-sm" id="q6_next">Next &raquo;</button></a>
+<a href="#survey-body5"><button type="button" class="btn btn-success btn-sm" name="q6-back" id="q6_back">&laquo; Back</button></a>
 <br><br><br>
 <hr>
 <br><br>
@@ -227,11 +226,11 @@
 </div>
 
 <div class="container">
-<div class="survey-body7"><br>
+<div id="survey-body7"><br>
 <h4 id="question7">7. Is there anything else you might want to add or mention?</h4>
 <textarea class="form-control" rows="2" id="q7"></textarea>
 <a href="display.php" class="btn btn-primary btn-sm" name="q7-next" role="button" id="q7_next">Next &raquo;</a>
-<button type="button" class="btn btn-success btn-sm" name="q7-back" id="q7_back">&laquo; Back</button>
+<a href="#survey-body6"><button type="button" class="btn btn-success btn-sm" name="q7-back" id="q7_back">&laquo; Back</button></a>
 <br>
 <br><br><br>
 <hr>
@@ -252,9 +251,6 @@
 </footer>
 <!--footer Ends-->
 <!--jquery-->
-
   
-
-    
 </body>
 </html>

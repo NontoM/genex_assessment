@@ -100,7 +100,7 @@ p{
 
 button:hover{
     background-color: #436988 !important;
-    border: 0.5px solid rgb(153, 146, 146);
+    border: 0.5px solid rgb(173, 26, 26);
     color: white; 
 }
 .span3{
@@ -131,16 +131,7 @@ button:hover{
 .radio{
     margin-left: 4px;
 }
-.progress{
-    float: left;
-    margin: 0 auto;
-    width: 30%;
-    color:white !important;
-}
-.progress-bar{
-    width: 30%;
-    color:white !important;   
-}
+
 #main_p{
   padding-bottom: 25px;
   padding-top: 25px;

@@ -25,9 +25,9 @@
 <div class="survey-body1">
 <div class="form-group">
 <h4 id="question1">1. Testing Demographic Question</h4>
-<label for="test" class="test">test</label>
-<textarea class="form-control" rows="2" id="q1"></textarea>
-<button type="button" class="btn btn-primary" name="q1-submit" id="q1_submit">Next &raquo;</button>
+<label for="test" class="test">Test</label>
+<textarea class="form-control" rows="2" id="q1"></textarea><br>
+<button type="button" class="btn btn-primary" name="q1-submit" id="q1_next">Next &raquo;</button>
 <br><br><br>
 <hr>
 <br><br>
@@ -94,7 +94,8 @@
   </label>
 </div>
 <p class="p1">Extremely Slowly <span class="span2"> Extremely Quickly</span></p>
-<button type="submit" class="btn btn-primary" name="q2_submit" id="q2_submit">Next &raquo;</button>
+<button type="submit" class="btn btn-primary" name="q2_submit" id="q2_next">Next &raquo;</button>
+<button type="button" class="btn btn-success" name="q2-back" id="q2_back">&laquo; Back</button>
 <br>
 <br><br><br>
 <hr>
@@ -115,7 +116,8 @@
     <input type="radio" class="form-check-input" name="optradio">No
   </label>
 </div>
-<button type="submit" name="q3_submit" class="btn btn-primary" id="q3_submit">Next &raquo;</button>
+<button type="button" class="btn btn-success" name="q3-back" id="q3_back">&laquo; Back</button>
+<button type="submit" name="q3_submit" class="btn btn-primary" id="q3_next">Next &raquo;</button>
 <br>
 <br><br><br>
 <hr>
@@ -127,8 +129,9 @@
 <div class="survey-body4"><br>
 <div class="form-group">
 <h4 id="question4">4. Please tell us more</h4>
-<textarea class="form-control" rows="2" id="q4"></textarea>
-<button type="submit" name="q4_submit" class="btn btn-primary" id="q4_submit">Next &raquo;</button>
+<textarea class="form-control" rows="2" id="q4"></textarea><br>
+<button type="submit" class="btn btn-primary"  name="q4_next" id="q4_next">Next &raquo;</button>
+<button type="button" class="btn btn-success" name="q4-back" id="q4_back">&laquo; Back</button>
 <br><br><br>
 <hr>
 <br><br>
@@ -195,7 +198,8 @@
   </label>
 </div>
 <p>Extremely Slowly  <span class="span3">Extremely Quickly</span></p>
-<button type="submit" name="q5_submit" class="btn btn-primary" id="q5_submit">Next &raquo;</button>
+<button type="submit" name="q5_submit" class="btn btn-primary" id="q5_next">Next &raquo;</button>
+<button type="button" class="btn btn-success" name="q5-back" id="q5_back">&laquo; Back</button>
 <br><br><br>
 <hr>
 <br><br>
@@ -215,7 +219,8 @@
     <input type="radio" class="form-check-input" name="optradio">No
   </label>
 </div>
-<a href=""><button type="submit" name="q6_submit" class="btn btn-primary" id="q6_submit">Next &raquo;</button></a>
+<a href=""><button type="submit" name="q6_submit" class="btn btn-primary" id="q6_next">Next &raquo;</button></a>
+<button type="button" class="btn btn-success" name="q6-back" id="q6_back">&laquo; Back</button>
 <br><br><br>
 <hr>
 <br><br>
@@ -225,8 +230,9 @@
 <div class="container">
 <div class="survey-body7"><br>
 <h4 id="question7">7. Is there anything else you might want to add or mention?</h4>
-<textarea class="form-control" rows="2" id="q7"></textarea>
-<a href="display.php" class="btn btn-primary" role="button" id="q7_submit">Next &raquo;</a>
+<textarea class="form-control" rows="2" id="q7"></textarea><br>
+<a href="display.php" class="btn btn-primary" name="q7-next" role="button" id="q7_next">Next &raquo;</a>
+<button type="button" class="btn btn-success" name="q7-back" id="q7_back">&laquo; Back</button>
 <br>
 <br><br><br>
 <hr>

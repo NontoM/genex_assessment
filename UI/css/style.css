@@ -54,6 +54,7 @@ h4{
 .test{
     font-weight: bold;
     margin-top: 22px;
+    margin-left: 5px !important;
 }
 .span1{
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -79,16 +80,15 @@ p{
     font-size: 14px;
     float:right;
 }  
-#q1_submit{
-    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
+#q1_next{
     color: #fff;
-    background-color: #337ab7;
+    background-color: #2a6da8;
     border:1px solid #337ab7;
     border-radius: 4px;
-    height: 40px;
     float: right;
     margin-top: 20px;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px; 
     height:35px;
     
 }
@@ -97,7 +97,6 @@ button{
     background-color: #2a6da8;
     border:1px solid #337ab7;
     border-radius: 4px;
-    height: 40px;
     float: right;
     margin-top: 20px;  
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -109,12 +108,11 @@ button:hover{
     border: 0.5px solid rgb(153, 146, 146);
     color: white; 
 }
-#q2_submit{
+#q2_next{
     color: #fff;
     background-color: #2a6da8;
     border:1px solid #337ab7;
     border-radius: 4px;
-    height: 40px;
     float: right;
     margin-top: 20px;
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -124,74 +122,74 @@ button:hover{
 .span3{
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    margin-left: 250px !important;
+    margin-left: 300px !important;
     }  
-#q3_submit{
+#q3_next{
     color: #fff;
     background-color: #337ab7;
     border:1px solid #337ab7;
     border-radius: 4px;
-    height: 40px;
     float: right;
     margin-top: 20px;
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px; 
     height:35px;
 }
-#q4_submit{
+#q4_next{
     color: #fff;
     background-color: #337ab7;
     border:1px solid #337ab7;
     border-radius: 4px;
-    height: 40px;
     float: right;
     margin-top: 20px;
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px; 
     height:35px;
 }
-#q5_submit{
+#q5_next{
     color: #fff;
     background-color: #337ab7;
     border:1px solid #337ab7;
     border-radius: 4px;
-    height: 40px;
     float: right;
     margin-top: 20px;
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px; 
     height:35px;
 }
-#q6_submit{
+#q6_next{
     color: #fff;
     background-color: #337ab7;
     border:1px solid #337ab7;
     border-radius: 4px;
-    height: 40px;
     float: right;
     margin-top: 20px;
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px; 
     height:35px;
 }
-#q7_submit{
+#q7_next{
     color: #fff;
     background-color: #337ab7;
     border:1px solid #337ab7;
     border-radius: 4px;
-    height: 40px;
     float: right;
     margin-top: 20px;
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px; 
     height:35px;
 }
-#q7_submit:hover{
-    background-color: #436988 !important;
-    border: 0.5px solid rgb(153, 146, 146);
-    color: white;   
+#q7_back{
+    color: #fff;
+    background-color: #337ab7;
+    border:1px solid #337ab7;
+    border-radius: 4px;
+    float: right;
+    margin-top: 20px;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px; 
+    height:35px;
 }
-
 .form-check-label{
     font-weight: bold;
     font-size:16px;

@@ -80,116 +80,35 @@ p{
     font-size: 14px;
     float:right;
 }  
-#q1_next{
+.btn-primary{
     color: #fff;
-    background-color: #2a6da8;
-    border:1px solid #337ab7;
     border-radius: 4px;
     float: right;
     margin-top: 20px;
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px; 
-    height:35px;
-    
 }
-button{
+.btn-success{
     color: #fff;
-    background-color: #2a6da8;
-    border:1px solid #337ab7;
     border-radius: 4px;
     float: right;
-    margin-top: 20px;  
+    margin-top: 20px;
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px; 
-    height:35px;
+    font-size: 14px;  
+    margin-right:4px !important;      
 }
+
 button:hover{
     background-color: #436988 !important;
     border: 0.5px solid rgb(153, 146, 146);
     color: white; 
 }
-#q2_next{
-    color: #fff;
-    background-color: #2a6da8;
-    border:1px solid #337ab7;
-    border-radius: 4px;
-    float: right;
-    margin-top: 20px;
-    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px; 
-    height:35px;
-}
 .span3{
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    margin-left: 300px !important;
+    margin-left: 290px !important;
     }  
-#q3_next{
-    color: #fff;
-    background-color: #337ab7;
-    border:1px solid #337ab7;
-    border-radius: 4px;
-    float: right;
-    margin-top: 20px;
-    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px; 
-    height:35px;
-}
-#q4_next{
-    color: #fff;
-    background-color: #337ab7;
-    border:1px solid #337ab7;
-    border-radius: 4px;
-    float: right;
-    margin-top: 20px;
-    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px; 
-    height:35px;
-}
-#q5_next{
-    color: #fff;
-    background-color: #337ab7;
-    border:1px solid #337ab7;
-    border-radius: 4px;
-    float: right;
-    margin-top: 20px;
-    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px; 
-    height:35px;
-}
-#q6_next{
-    color: #fff;
-    background-color: #337ab7;
-    border:1px solid #337ab7;
-    border-radius: 4px;
-    float: right;
-    margin-top: 20px;
-    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px; 
-    height:35px;
-}
-#q7_next{
-    color: #fff;
-    background-color: #337ab7;
-    border:1px solid #337ab7;
-    border-radius: 4px;
-    float: right;
-    margin-top: 20px;
-    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px; 
-    height:35px;
-}
-#q7_back{
-    color: #fff;
-    background-color: #337ab7;
-    border:1px solid #337ab7;
-    border-radius: 4px;
-    float: right;
-    margin-top: 20px;
-    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px; 
-    height:35px;
-}
+
 .form-check-label{
     font-weight: bold;
     font-size:16px;

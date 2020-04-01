@@ -1,4 +1,3 @@
-<!--
 GENEX SURVEY
 
 This is the front-end of the survey(form),that I implemented using PHP 7+, HTML & CSS,Jquery and Bootstrap v4.0
@@ -26,4 +25,4 @@ This is to ensure that the user sees progress and has clear knowledge of the len
 
 
 
- -->
+ 
